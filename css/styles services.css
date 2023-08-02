@@ -1,0 +1,115 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  color: #666666;
+  padding: 0;
+}
+.topspace {
+  margin-top: 40px;
+}
+.btn {
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  -webkit-border-radius: 0px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0px;
+  -moz-background-clip: padding;
+  border-radius: 0px;
+  background-clip: padding-box;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  border: 0 none;
+  padding: 12px 35px;
+  text-shadow: 0 1px 0px #780d33;
+}
+
+.btn-action {
+  font-weight: bold;
+  background: transparent!important;
+  border: 1px solid #333;
+  text-shadow: none;
+}
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.btn-action.active {
+  color: #bd1550;
+  border-color: #bd1550;
+}
+
+/* Section - Featured */
+.featured {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+.featured h3 {
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  vertical-align: middle;
+  margin: 0 0 25px 0;
+}
+.section-title,
+.entry-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 25px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.section-title span,
+.entry-title span {
+  display: inline-block;
+  position: relative;
+}
+.section-title span:before,
+.entry-title span:before,
+.section-title span:after,
+.entry-title span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: .53em;
+  width: 400%;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.section-title span:before,
+.entry-title span:before {
+  right: 100%;
+  margin-right: 45px;
+}
+.section-title span:after,
+.entry-title span:after {
+  left: 100%;
+  margin-left: 45px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1080px;
+  }
